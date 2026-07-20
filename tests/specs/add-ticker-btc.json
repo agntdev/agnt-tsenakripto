@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Bitcoin",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Add BTC to tracking list"
+            }
+          }
+        ],
+        "send": {
+          "callback": "add_ticker:BTC"
+        }
+      }
+    ]
+  }
+]
